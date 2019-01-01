@@ -1,0 +1,26 @@
+@import "./lib/variables";
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: $rootColor;
+  color: $bleed;
+  margin: $space;
+  padding: $space;
+}
+
+footer {
+  background: $rootColor;
+  color: $accentColor;
+  margin: $space;
+  padding: $space;
+  // position: fixed;
+}
